@@ -1,0 +1,648 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar
+{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar ul
+{
+    height: 10vh;
+    width: 60%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.discover{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    background: lightseagreen;
+}
+
+.discover .text{
+   width: 40%;
+   height: 80%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+}
+
+.discover .pic{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+ }
+
+ .discover .pic img{
+     width: 70%;
+     height: 90%;
+ }
+
+ .discover button{
+       width: 25%;
+       height: 9%;
+       color: white;
+       background: lightskyblue;
+       border-radius: 20px;
+       border: none;
+ }
+
+
+
+ 
+.discover2{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.discover2 .text{
+   width: 40%;
+   height: 80%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+}
+
+.discover2 .pic{
+    width: 40%;
+    height: 90%;
+    display: flex;
+ 
+    justify-content: center;
+   align-items: flex-end;
+ }
+
+ .discover2 .pic img{
+     width: 90%;
+     height: 90%;
+ }
+
+ .discover2 button{
+       width: 25%;
+       height: 9%;
+       color: white;
+       background: lightskyblue;
+       border-radius: 20px;
+       border: none;
+ }
+
+
+
+
+ .offer{
+     width: 100%;
+     height: 12vh;
+     background: whitesmoke;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     text-align: center;
+ }
+
+
+.main{
+    width: 100%;
+    height: 65vh;
+    background: snow;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.main .ofr1{
+    width: 30%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   justify-content: center;
+   justify-content: space-evenly;
+}
+
+.main .ofr1 i{
+    font-size: 25px;
+}
+.num{
+    width: 100%;
+    height: 30vh;
+    background: lightskyblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.num span{
+    font-size: 20px;
+}
+
+
+.feature{
+    width: 100%;
+    height: 20vh;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.picture{
+    width: 100%;
+    height: 120vh;
+    border: 1px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.picture .pic1{
+    width: 25%;
+    height: 59vh;
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.pic1 img{
+    width: 100%;
+    height: 48vh;
+    border-radius: 20px;
+}
+
+.pic1 h1{
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.pic1 span{
+    font-size: 1em;
+    color: gray;
+}
+
+
+
+
+.clients{
+    width: 100%;
+    height: 90vh;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.clients .feed{
+    width: 100%;
+    height: 30vh;
+    background: lightcyan;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.clients .mens{
+    width: 100%;
+    height: 35vh;
+    background: lightcyan;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mens .men1{
+    width: 40%;
+    height: 30vh;
+    background: transparent;
+    display: flex;
+}
+
+.men1 .pic2{
+    width: 20%;
+    height: 29vh;
+    background: transparent;
+}
+
+.pic2 img{
+    border-radius: 50%;
+    width: 100px;
+}
+
+.men1 .text{
+    width: 75%;
+    height: 29vh;
+    background: transparent;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.men1 .text h1{
+    font-size: 1.3em;
+    color: black;
+}
+
+.men1 .text h2{
+    font-size: 1.2em;
+}
+
+
+
+
+.choose{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.choose p{
+    color: gray;
+    font-size: 1.2em;
+}
+
+.plan{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+.plan .plan1{
+     width: 80%;
+     height: 70vh;
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-end;
+}
+
+.plan1 .economy{
+    width: 24%;
+    height: 70vh;
+    background: lightcyan;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.economy .blu{
+    width: 60%;
+    height: 23vh;
+    background: lightskyblue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.economy .blu .cyn{
+    width: 70%;
+    height: 16vh;
+    background:  lightgray;
+    border-radius: 50%;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.economy h1{
+   font-size: 1.9em;
+}
+
+.economy h2{
+    font-size: 1.2em;
+ }
+ 
+.economy h3{
+    font-size: 2.5em;
+ }
+ 
+
+
+
+.latest{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+
+.latest .latest-post{
+    width: 90%;
+    height: 94vh;
+   background: lightcyan;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.latest .heading{
+    width: 95%;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.heading p{
+    color: gray;
+    font-size: 1.1em;
+}
+
+
+.latest .post {
+    width: 95%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.post .post-in{
+    width: 30%;
+    height: 62vh;
+} 
+
+.post-in .pic4{
+    width: 100%;
+    height: 35vh;
+}
+
+.post-in .pic4 img{
+    width: 100%;
+    height: 100%;
+}
+
+.post-in .pic-4-1{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: gray;
+}
+
+.post-in .pic-4-1 .mark{
+     width: 40%;
+     height: 99%;
+     display: flex;
+     align-items: flex-end;
+}
+
+
+.pic-4-1  .mark h1{
+    font-size: 1.1em;
+}
+
+.post-in .pic-4-1 h2{
+    font-size: 1.1em;
+}
+.post-in .pic-4-2{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.post-in .pic-4-2 h1{
+    font-size: 1.2em;
+}
+ 
+.post-in .pic-4-2 p{
+    font-size: 1.1em;
+    color: gray;
+}
+
+
+
+
+.photos{
+    width: 100%;
+    height: 30vh;
+    background: rgb(103, 235, 235);
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+}
+
+
+
+
+.footer{
+    width: 100%;
+    height: 60vh;
+    background: rgb(2, 2, 65);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.footer .about{
+    width: 30%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.about h1{
+    color: white;
+}
+.about p{
+    color: gray;
+}
+
+
+.footer .news{
+    width: 30%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.news h1{
+    color: white;
+}
+
+.news p{
+    font-size: 1.1em;
+    color: gray;
+}
+
+.news .text{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+}
+
+.footer .news .text input{
+    width: 90%;
+    height: 100%;
+}
+
+.news .text .arrow{
+    width: 10%;
+    height: 100%;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer .follow{
+    width: 30%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.follow h1{
+    color: white;
+}
+
+.follow p{
+    color: gray;
+    font-size: 1.1em;
+}
+
+
+.follow .social{
+    width: 90%;
+    height: 10vh;
+    display: flex;
+    align-items: center;   
+    justify-content: space-around;
+}
+
+.social .icn6{
+    width: 10%;
+    height: 5vh;
+    background: black;
+    transform: perspective(1000px) rotate(-30deg) skew(25deg) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social .icn6:hover{
+    transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
+    box-shadow: -20px 20px 10px 5px black;
+}
+ 
+.social .icn6 .fa{
+    color: rgb(2, 2, 65);
+    width: 95%;
+    height: 5vh;
+    border: 2px solid white;
+    transition: all 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+ 
+.social .icn6 .fab{
+    color: rgb(2, 2, 65);
+    width: 95%;
+    height: 5vh;
+    border: 2px solid white;
+    transition: all 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+
+.social .icn6 .fa:hover{
+     transform: rotate(360deg);
+     color: blue;
+    box-shadow: 2px 2px 24px #ffff;
+    
+ }
+ 
+.social .icn6 .fab:hover{
+    transform: rotate(360deg);
+    color: blue;
+   box-shadow: 2px 2px 24px #ffff;
+   
+}
+
+
+
+.social .icn6::before{
+    content:"";
+	display:block;
+	width:40%;
+	height:5vh;
+	background:black;
+	position:absolute; 
+    text-align: center;
+    transform:  skewy(-45deg) ;
+    top:6;
+    left: -15;  
+    border-top:2px solid white;
+    border-left:1px solid white;
+} 
+
+
+.social .icn6::after{
+    content:"";
+	display:block;
+	width:96%;
+	height:2vh;
+    background:black;
+    border-left: 1px solid white;
+    border-bottom:1px solid white;
+    border-right:2px solid white;
+	position:absolute; 
+    text-align: center;
+    transform:  skew(-45deg) ;
+     top:34px;
+     left: -8;
+} 
+
+
+
+
+
+
+
